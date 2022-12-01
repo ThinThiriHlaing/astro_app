@@ -1,0 +1,31 @@
+---
+
+import Layout from "../layouts/Layout.astro";
+import logo from '../image/pref-bright-removebg-preview.png';
+import "./style.css";
+
+---
+
+<Layout title="home">
+  <div
+    class="moto d-flex h-de-100 align-c gap-de-8 gap-mb-3 flex-tl-column pt-tl-8 justify-content-tl-center"
+  >
+    <div>
+      <p id="hero-text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minima
+        iusto, nam quasi harum perferendis, consequatur, fuga dolores atque
+        earum sapiente facere ad veniam architecto voluptatibus et eos officiis
+        repudiandae!
+      </p>
+      <div id="btn-let">
+        <button class="btn-primary mt-3"> Let's Join</button>
+      </div>
+    </div>
+    <div class="w-100 text-align-center">
+      <img
+        src={logo}
+        alt="Perf Bright"
+      />
+    </div>
+  </div>
+</Layout>
